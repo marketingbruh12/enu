@@ -1,5 +1,0 @@
-name = 'enumarketing'
-type = "javascript"
-
-[site]
-bucket = "./"  # Ensure this points to the folder containing index.html
