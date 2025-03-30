@@ -1,7 +1,5 @@
-{
-  "name": "worker-name",
-  "compatibility_date": "2025-03-26",
-  "assets": {
-    "directory": "./dist"
-  }
-}
+name = "https://enu.surveymc-com.workers.dev/"
+type = "javascript"
+
+[site]
+bucket = "./"  # Ensure this points to the folder containing index.html
