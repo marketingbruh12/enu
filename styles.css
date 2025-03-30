@@ -256,7 +256,7 @@ nav ul li a:hover {
     padding: 100px 0;
     background-color: var(--background);
     position: relative;
-    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="1" fill="%234361ee" opacity="0.05"/></svg>');
+    background-image: url('data:image/svg+xml;utf8,');
     background-size: 40px 40px;
 }
 
@@ -395,8 +395,8 @@ nav ul li a:hover {
     margin-bottom: 40px;
 }
 
-.typeform-input, 
-.typeform-select, 
+.typeform-input,
+.typeform-select,
 .typeform-textarea {
     width: 100%;
     max-width: 500px;
@@ -409,8 +409,8 @@ nav ul li a:hover {
     background-color: transparent;
 }
 
-.typeform-input:focus, 
-.typeform-select:focus, 
+.typeform-input:focus,
+.typeform-select:focus,
 .typeform-textarea:focus {
     border-color: var(--primary-color);
     outline: none;
@@ -487,30 +487,24 @@ nav ul li a:hover {
     h1 {
         font-size: 2.5rem;
     }
-    
     h2 {
         font-size: 2rem;
     }
-    
     .hero .container {
         flex-direction: column;
         text-align: center;
     }
-    
     .hero-content {
         margin-bottom: 50px;
     }
-    
     .abstract-shape {
         width: 300px;
         height: 300px;
     }
-    
     .stats {
         flex-direction: column;
         gap: 30px;
     }
-    
     .typeform-container {
         width: 95%;
         height: 90vh;
@@ -521,240 +515,250 @@ nav ul li a:hover {
     header {
         padding: 15px 0;
     }
-    
     nav ul {
         display: none;
     }
-    
     h1 {
         font-size: 2rem;
     }
-    
     h2 {
         font-size: 1.8rem;
     }
-    
     .hero {
         padding: 120px 0 80px;
     }
-    
     .abstract-shape {
         width: 250px;
         height: 250px;
     }
-    
     .services-grid {
         grid-template-columns: 1fr;
     }
-    
     .typeform-container {
         margin: 2% auto;
         height: 96vh;
     }
-    
     .typeform-question h2 {
         font-size: 1.6rem;
     }
-}
-.typeform-content {
-    padding: 30px 20px;
-}
-
-.typeform-navigation {
-    padding: 15px 20px;
-}
-
-.typeform-button {
-    padding: 10px 20px;
-    font-size: 0.9rem;
-}
+    .typeform-content {
+        padding: 30px 20px;
+    }
+    .typeform-navigation {
+        padding: 15px 20px;
+    }
+    .typeform-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
 }
 
 /* About Section */
 .about {
-padding: 100px 0;
-background-color: var(--light-background);
+    padding: 100px 0;
+    background-color: var(--light-background);
 }
 
 .about-content {
-max-width: 800px;
-margin: 0 auto;
-text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .about-content p {
-font-size: 1.2rem;
-margin-bottom: 50px;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
 }
 
 .stats {
-display: flex;
-justify-content: space-between;
-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .stat {
-flex: 1;
-padding: 30px;
-background-color: var(--background);
-border-radius: 10px;
-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-transition: var(--transition);
+    flex: 1;
+    padding: 30px;
+    background-color: var(--background);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: var(--transition);
 }
 
 .stat:hover {
-transform: translateY(-5px);
-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .stat h3 {
-font-size: 2.5rem;
-color: var(--primary-color);
-margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
 }
 
 /* Testimonials Section */
 .testimonials {
-padding: 100px 0;
-background-color: var(--background);
+    padding: 100px 0;
+    background-color: var(--background);
 }
 
 .testimonial-slider {
-max-width: 800px;
-margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .testimonial {
-padding: 40px;
-background-color: var(--light-background);
-border-radius: 10px;
-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-text-align: center;
+    padding: 40px;
+    background-color: var(--light-background);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
 }
 
 .testimonial p {
-font-size: 1.2rem;
-font-style: italic;
-margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 30px;
 }
 
 .testimonial-author {
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 /* Contact Section */
 .contact {
-padding: 100px 0;
-background-color: var(--light-background);
-text-align: center;
+    padding: 100px 0;
+    background-color: var(--light-background);
+    text-align: center;
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
 }
 
 .contact p {
-font-size: 1.2rem;
-max-width: 600px;
-margin: 0 auto 30px;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.contact .cta-button {
+    margin: 20px 0;
+}
+
+.contact .small-text {
+    margin-top: 20px;
+    color: var(--light-text);
 }
 
 /* Footer */
 footer {
-background-color: #1a1a1a;
-color: #fff;
-padding: 80px 0 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 80px 0 20px;
 }
 
 .footer-content {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-gap: 40px;
-margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-bottom: 60px;
 }
 
 .footer-info p {
-margin-top: 20px;
-color: #aaa;
+    margin-top: 20px;
+    color: #aaa;
 }
 
 .footer-logo {
-font-size: 1.8rem;
-font-weight: 700;
-color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 .footer-links h4, .footer-contact h4 {
-color: #fff;
-margin-bottom: 20px;
-font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
 }
 
 .footer-links ul li {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-links ul li a {
-color: #aaa;
-transition: var(--transition);
+    color: #aaa;
+    transition: var(--transition);
 }
 
 .footer-links ul li a:hover {
-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 .footer-contact p {
-color: #aaa;
-margin-bottom: 10px;
+    color: #aaa;
+    margin-bottom: 10px;
 }
 
 .footer-bottom {
-text-align: center;
-padding-top: 20px;
-border-top: 1px solid #333;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
 }
 
 .footer-bottom p {
-color: #aaa;
-font-size: 0.9rem;
+    color: #aaa;
+    font-size: 0.9rem;
 }
 
 /* Animation Classes */
 .animate__animated {
-animation-duration: 1s;
-animation-fill-mode: both;
-}
-
-.animate__fadeIn {
-animation-name: fadeIn;
-}
-
-.animate__fadeInUp {
-animation-name: fadeInUp;
-}
-
-@keyframes fadeInUp {
-from {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    }
+    
+    .animate__fadeIn {
+    animation-name: fadeIn;
+    }
+    
+    .animate__fadeInUp {
+    animation-name: fadeInUp;
+    }
+    
+    @keyframes fadeInUp {
+    from {
     opacity: 0;
     transform: translate3d(0, 40px, 0);
-}
-to {
+    }
+    to {
     opacity: 1;
     transform: translate3d(0, 0, 0);
-}
-}
-
-/* Custom Cursor */
-.custom-cursor {
-position: fixed;
-width: 20px;
-height: 20px;
-border-radius: 50%;
-background-color: rgba(67, 97, 238, 0.3);
-pointer-events: none;
-z-index: 9999;
-transform: translate(-50%, -50%);
-transition: width 0.3s, height 0.3s, background-color 0.3s;
-}
-
-.custom-cursor.active {
-width: 50px;
-height: 50px;
-background-color: rgba(67, 97, 238, 0.1);
-}
+    }
+    }
+    
+    /* Custom Cursor */
+    .custom-cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(67, 97, 238, 0.3);
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s, background-color 0.3s;
+    }
+    
+    .custom-cursor.active {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(67, 97, 238, 0.1);
+    }
